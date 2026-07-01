@@ -10,3 +10,9 @@ RDF terms are plain maps:
 
 Triples and quads are maps with `:subject`, `:predicate`, `:object`, and
 optional `:graph`.
+
+## Test
+
+```bash
+clojure -M:test
+```
